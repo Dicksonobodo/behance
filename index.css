@@ -30,7 +30,7 @@
 body {
     font-family: 'Source Sans Pro Topnav', sans-serif;
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -785,6 +785,7 @@ footer {
     .mobile-nav {
         display: flex;
         justify-content: space-between;
+        /* position: static; */
     }
 
     .mobile-login {
@@ -829,6 +830,10 @@ footer {
         justify-content: space-between;
         background-color: #282A35;
         padding: 10px;
+        /* position: sticky; */
+    }
+    .mobile-course > a {
+        color: white;
     }
 
     .f-img {
@@ -872,6 +877,7 @@ footer {
 
     .contain {
         display: flex;
+        align-items: center;
         flex-direction: column;
         /* justify-content: space-between; */
         /* padding: 60px 160px; */
@@ -885,9 +891,9 @@ footer {
         text-align: center;
         gap: 50px;
         padding: 100px;
-        width: 180px;
+        width: 150px;
         height: 20px;
-        margin-left: -140px;
+        
     }
 
     .rrr {
