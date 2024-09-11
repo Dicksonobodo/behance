@@ -975,7 +975,8 @@ footer {
     }
 
     .webtemp {
-        text-align: center;
+        /* text-align: center;
+        width: 100%; */
     }
 
     .webtemp > h1 {
