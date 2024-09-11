@@ -975,10 +975,13 @@ footer {
     }
 
     .webtemp {
-        /* text-align: center;
-        width: 100%; */
+        text-align: center;
     }
-
+    .webtemp img {
+        width: 50%;
+        height: auto;
+        padding: 20px 100px;
+    }
     .webtemp > h1 {
         font-size: 30px;
     }
